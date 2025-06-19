@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programas - Creamos Guatemala</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="floating-shapes">
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+
+    <div class="container">
+        <div class="header">
+            <div class="logo">CREAMOS</div>
+            <h1>Nuestros Programas</h1>
+            <p>Creando oportunidades para mujeres y familias en las comunidades alrededor del basurero de la Ciudad de Guatemala</p>
+        </div>
+
+        <div class="programs-grid">
+            <div class="program-card program-1" onclick="openModal('modal1')">
+                <div class="program-icon">💰</div>
+                <h3 class="program-title">Generación de Ingresos</h3>
+                <p class="program-description">Alternativas seguras y sostenibles para generar ingresos</p>
+            </div>
+
+            <div class="program-card program-2" onclick="openModal('modal2')">
+                <div class="program-icon">🧠</div>
+                <h3 class="program-title">Apoyo Emocional</h3>
+                <p class="program-description">Creamos Voces - Servicios de salud mental y psicoeducativos</p>
+            </div>
+
+            <div class="program-card program-3" onclick="openModal('modal3')">
+                <div class="program-icon">📚</div>
+                <h3 class="program-title">Educación de Adultos</h3>
+                <p class="program-description">Programa acreditado y flexible para estudiantes no tradicionales</p>
+            </div>
+
+            <div class="program-card program-4" onclick="openModal('modal4')">
+                <div class="program-icon">💍</div>
+                <h3 class="program-title">Bisutería Reciclada</h3>
+                <p class="program-description">Creación de accesorios con materiales reciclados</p>
+            </div>
+
+            <div class="program-card program-5" onclick="openModal('modal5')">
+                <div class="program-icon">✂️</div>
+                <h3 class="program-title">Costura y Serigrafía</h3>
+                <p class="program-description">Empresa de confección y estampado textil</p>
+            </div>
+
+            <div class="program-card program-6" onclick="openModal('modal6')">
+                <div class="program-icon">👥</div>
+                <h3 class="program-title">Liderazgo Comunitario</h3>
+                <p class="program-description">Fortalecimiento del liderazgo local y comunitario</p>
+            </div>
+        </div>
+
+        <div class="cta-section">
+            <h2 style="margin-bottom: 20px;">¿Quieres ser parte del cambio?</h2>
+            <a href="#" class="cta-button">Conoce Más</a>
+        </div>
+    </div>
+
+    <!-- Modales -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-header">
+                <div class="modal-icon program-1"><div class="program-icon">💰</div></div>
+                <h2 class="modal-title">Programa de Generación de Ingresos</h2>
+            </div>
+            <div class="modal-body">
+                <div class="highlight-box">
+                    <strong>Misión:</strong> Proporcionar alternativas seguras y sostenibles de generación de ingresos para mujeres que han dependido del trabajo riesgoso en el basurero.
+                </div>
+                
+                <h3>¿Qué incluye este programa?</h3>
+                <ul>
+                    <li>Oportunidades de trabajo seguro y digno</li>
+                    <li>Capacitación en diferentes oficios y habilidades</li>
+                    <li>Acompañamiento para el desarrollo de microempresas</li>
+                    <li>Apoyo en la comercialización de productos</li>
+                    <li>Desarrollo de habilidades empresariales</li>
+                </ul>
+
+                <h3>Beneficiarias</h3>
+                <p>Actualmente beneficia a <strong>60 mujeres</strong> a través de tres iniciativas principales:</p>
+                <ul>
+                    <li>Programa de bisutería reciclada</li>
+                    <li>Empresa de costura y serigrafía</li>
+                    <li>Iniciativas de producción diversas</li>
+                </ul>
+
+                <h3>Impacto</h3>
+                <p>Este programa ha permitido que las mujeres participantes reduzcan su dependencia del trabajo en el basurero, mejorando significativamente su calidad de vida y la de sus familias.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-header">
+                <div class="modal-icon program-2"><div class="program-icon">🧠</div></div>
+                <h2 class="modal-title">Creamos Voces - Apoyo Emocional</h2>
+            </div>
+            <div class="modal-body">
+                <div class="highlight-box">
+                    <strong>Objetivo:</strong> Crear un espacio seguro y fomentar el liderazgo a través de servicios de salud mental especializados.
+                </div>
+                
+                <h3>Servicios que ofrecemos</h3>
+                <ul>
+                    <li><strong>Terapia individual:</strong> Atención personalizada y confidencial</li>
+                    <li><strong>Terapia grupal:</strong> Apoyo colectivo y construcción de redes</li>
+                    <li><strong>Terapia familiar:</strong> Fortalecimiento de vínculos familiares</li>
+                    <li><strong>Grupos psicoeducativos:</strong> Aprendizaje sobre salud mental</li>
+                    <li><strong>Grupo de género y sexualidad:</strong> Espacios de reflexión y empoderamiento</li>
+                    <li><strong>Terapia de duelo y trauma:</strong> Atención especializada</li>
+                </ul>
+
+                <h3>Enfoque especializado</h3>
+                <p>Nuestro programa se enfoca especialmente en:</p>
+                <ul>
+                    <li>Violencia de género y sus consecuencias</li>
+                    <li>Trauma relacionado con condiciones de vida adversas</li>
+                    <li>Fortalecimiento de la autoestima y empoderamiento</li>
+                    <li>Desarrollo de habilidades de afrontamiento</li>
+                </ul>
+
+                <h3>Metodología</h3>
+                <p>Utilizamos enfoques terapéuticos culturalmente sensibles y adaptados a las necesidades específicas de nuestra población beneficiaria.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal3" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-header">
+                <div class="modal-icon program-3"><div class="program-icon">📚</div></div>
+                <h2 class="modal-title">Programa de Educación de Adultos</h2>
+            </div>
+            <div class="modal-body">
+                <div class="highlight-box">
+                    <strong>Certificación:</strong> Programa acreditado que ofrece una alternativa flexible para estudiantes no tradicionales.
+                </div>
+                
+                <h3>Características del programa</h3>
+                <ul>
+                    <li><strong>Horarios flexibles:</strong> Adaptados a las necesidades de trabajo y familia</li>
+                    <li><strong>Metodología adaptada:</strong> Para adultos con diferentes experiencias educativas</li>
+                    <li><strong>Certificación oficial:</strong> Reconocida por el Ministerio de Educación</li>
+                    <li><strong>Apoyo individualizado:</strong> Acompañamiento personalizado</li>
+                </ul>
+
+                <h3>Niveles educativos</h3>
+                <ul>
+                    <li>Alfabetización básica</li>
+                    <li>Educación primaria</li>
+                    <li>Educación básica (secundaria)</li>
+                    <li>Programas de capacitación técnica</li>
+                </ul>
+
+                <h3>Servicios complementarios</h3>
+                <ul>
+                    <li>Orientación académica y vocacional</li>
+                    <li>Apoyo psicopedagógico</li>
+                    <li>Materiales educativos adaptados</li>
+                    <li>Becas y apoyos económicos cuando es necesario</li>
+                </ul>
+
+                <h3>Impacto esperado</h3>
+                <p>Este programa busca romper el ciclo de pobreza a través de la educación, proporcionando herramientas para mejores oportunidades laborales y desarrollo personal.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal4" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-header">
+                <div class="modal-icon program-4"><div class="program-icon">💍</div></div>
+                <h2 class="modal-title">Programa de Bisutería Reciclada</h2>
+            </div>
+            <div class="modal-body">
+                <div class="highlight-box">
+                    <strong>Participantes:</strong> 23 mujeres dedicadas a la creación de accesorios únicos y sostenibles.
+                </div>
+                
+                <h3>Productos que creamos</h3>
+                <ul>
+                    <li>Collares artesanales</li>
+                    <li>Pulseras de diseño único</li>
+                    <li>Aretes llamativos</li>
+                    <li>Llaveros personalizados</li>
+                    <li>Accesorios decorativos</li>
+                </ul>
+
+                <h3>Proceso de creación</h3>
+                <p>Las mujeres trabajan con materiales reciclados siguiendo este proceso:</p>
+                <ul>
+                    <li><strong>Recolección:</strong> Posters, páginas de revistas y papel de colores</li>
+                    <li><strong>Transformación:</strong> Corte en tiras y creación de "piedras" de papel</li>
+                    <li><strong>Diseño:</strong> Combinación creativa de colores y formas</li>
+                    <li><strong>Ensamblaje:</strong> Creación del producto final</li>
+                    <li><strong>Control de calidad:</strong> Revisión y acabados</li>
+                </ul>
+
+                <h3>Impacto ambiental</h3>
+                <ul>
+                    <li>Reducción de residuos de papel</li>
+                    <li>Promoción del reciclaje creativo</li>
+                    <li>Concientización sobre consumo responsable</li>
+                    <li>Modelo de economía circular</li>
+                </ul>
+
+                <h3>Comercialización</h3>
+                <p>Los productos se venden en mercados locales, ferias artesanales y a través de canales en línea, generando ingresos sostenibles para las participantes.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal5" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-header">
+                <div class="modal-icon program-5"><div class="program-icon">✂️</div></div>
+                <h2 class="modal-title">Empresa de Costura y Serigrafía</h2>
+            </div>
+            <div class="modal-body">
+                <div class="highlight-box">
+                    <strong>Enfoque:</strong> Desarrollo de una empresa social sostenible con capacitación técnica especializada.
+                </div>
+                
+                <h3>Servicios de costura</h3>
+                <ul>
+                    <li>Confección de ropa básica y especializada</li>
+                    <li>Reparación y alteraciones</li>
+                    <li>Producción de artículos textiles para el hogar</li>
+                    <li>Uniformes y ropa de trabajo</li>
+                    <li>Productos textiles personalizados</li>
+                </ul>
+
+                <h3>Servicios de serigrafía</h3>
+                <ul>
+                    <li>Estampado en camisetas y textiles</li>
+                    <li>Diseños personalizados</li>
+                    <li>Producción para empresas y organizaciones</li>
+                    <li>Materiales promocionales</li>
+                    <li>Arte y diseño gráfico aplicado</li>
+                </ul>
+
+                <h3>Capacitación incluida</h3>
+                <ul>
+                    <li>Técnicas básicas y avanzadas de costura</li>
+                    <li>Manejo de máquinas industriales</li>
+                    <li>Procesos de serigrafía</li>
+                    <li>Control de calidad</li>
+                    <li>Gestión de producción</li>
+                    <li>Atención al cliente</li>
+                </ul>
+
+                <h3>Objetivos</h3>
+                <p>Crear una empresa sostenible que genere empleos dignos y desarrolle habilidades técnicas especializadas, permitiendo la independencia económica de las participantes.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal6" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-header">
+                <div class="modal-icon program-6"><div class="program-icon">👥</div></div>
+                <h2 class="modal-title">Programa de Liderazgo Comunitario</h2>
+            </div>
+            <div class="modal-body">
+                <div class="highlight-box">
+                    <strong>Filosofía:</strong> Fomentar el liderazgo local es fundamental para el desarrollo sostenible de las comunidades.
+                </div>
+                
+                <h3>Objetivos del programa</h3>
+                <ul>
+                    <li>Identificar y desarrollar líderes comunitarios</li>
+                    <li>Fortalecer la organización comunitaria</li>
+                    <li>Promover la participación ciudadana</li>
+                    <li>Desarrollar capacidades de gestión</li>
+                    <li>Crear redes de apoyo comunitario</li>
+                </ul>
+
+                <h3>Actividades de formación</h3>
+                <ul>
+                    <li><strong>Talleres de liderazgo:</strong> Desarrollo de habilidades de comunicación y gestión</li>
+                    <li><strong>Capacitación en derechos:</strong> Conocimiento de derechos humanos y ciudadanos</li>
+                    <li><strong>Planificación comunitaria:</strong> Herramientas para el desarrollo local</li>
+                    <li><strong>Resolución de conflictos:</strong> Mediación y construcción de paz</li>
+                    <li><strong>Gestión de proyectos:</strong> Formulación y ejecución de iniciativas</li>
+                </ul>
+
+                <h3>Áreas de impacto</h3>
+                <ul>
+                    <li>Empoderamiento de mujeres líderes</li>
+                    <li>Fortalecimiento de organizaciones de base</li>
+                    <li>Mejora en la participación comunitaria</li>
+                    <li>Desarrollo de proyectos de autogestión</li>
+                    <li>Construcción de ciudadanía activa</li>
+                </ul>
+
+                <h3>Metodología</h3>
+                <p>Utilizamos enfoques participativos que reconocen el conocimiento y experiencia de las participantes, combinando teoría con práctica y promoviendo el aprendizaje colectivo.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+    // Funciones para manejar los modales
+    function openModal(modalId) {
+        document.getElementById(modalId).style.display = 'block';
+        document.body.style.overflow = 'hidden';
+    }
+
+    function closeModal(modalId) {
+        document.getElementById(modalId).style.display = 'none';
+        document.body.style.overflow = 'auto';
+    }
+
+    // Event listeners para cerrar modales
+    document.addEventListener('DOMContentLoaded', function() {
+        const modals = document.querySelectorAll('.modal');
+        const closeButtons = document.querySelectorAll('.close');
+
+        closeButtons.forEach(button => {
+            button.addEventListener('click', function() {
+                const modal = this.closest('.modal');
+                closeModal(modal.id);
+            });
+        });
+
+        // Cerrar modal al hacer click fuera del contenido
+        modals.forEach(modal => {
+            modal.addEventListener('click', function(e) {
+                if (e.target === modal) {
+                    closeModal(modal.id);
+                }
+            });
+        });
+
+        // Cerrar modal con la tecla Escape
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                modals.forEach(modal => {
+                    if (modal.style.display === 'block') {
+                        closeModal(modal.id);
+                    }
+                });
+            }
+        });
+    });
+
+    // Animación suave al hacer scroll
+    const cards = document.querySelectorAll('.program-card');
+
+    const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.style.opacity = '1';
+                entry.target.style.transform = 'translateY(0)';
+            }
+        });
+    }, observerOptions);
+
+    cards.forEach((card, index) => {
+        card.style.opacity = '0';
+        card.style.transform = 'translateY(50px)';
+        card.style.transition = `opacity 0.6s ease ${index * 0.1}s, transform 0.6s ease ${index * 0.1}s`;
+        observer.observe(card);
+    });
+
+    // Efecto adicional de click en las tarjetas
+    document.addEventListener('DOMContentLoaded', function() {
+        const programCards = document.querySelectorAll('.program-card');
+        
+        programCards.forEach(card => {
+            card.addEventListener('click', function() {
+                // Efecto de "pulso" al hacer click
+                this.style.transform = 'scale(0.95)';
+                this.style.transition = 'transform 0.1s ease';
+                
+                // Restaurar el tamaño original después de 100ms
+                setTimeout(() => {
+                    this.style.transform = 'scale(1)';
+                    this.style.transition = 'transform 0.2s ease';
+                }, 100);
+            });
+            
+            // Efecto hover mejorado
+            card.addEventListener('mouseenter', function() {
+                this.style.transform = 'translateY(-5px)';
+                this.style.boxShadow = '0 10px 25px rgba(0,0,0,0.15)';
+            });
+            
+            card.addEventListener('mouseleave', function() {
+                this.style.transform = 'translateY(0)';
+                this.style.boxShadow = '0 4px 6px rgba(0,0,0,0.1)';
+            });
+        });
+    });
+    </script>
+</body>
+</html>
